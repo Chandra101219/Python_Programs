@@ -24,7 +24,7 @@ def sorta(list1):
                 list1[j+1] = temp
 
 list1 = [5,4,3,8,7,9,2,1,10,11]
-sorta(list1) # function call with rgument as list
+sorta(list1) # function call with argument as list
 print(list1)
 
 #Selection Sort
@@ -43,4 +43,11 @@ def sort(list):
 
 list = [5, 4, 3, 8, 7, 9, 2, 1]
 sort(list)  # function call with argument as list
+print(list)
+print(list.count(8))
+
+list.append(5)
+print(list)
+
+list.remove(5)
 print(list)
