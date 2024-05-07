@@ -172,7 +172,6 @@
 #     print(input_number, "is not a palindrome.")
 
 
-
 # def print_inverted_pyramid(rows):
 #     for i in range(0, rows, 1):
 #         print(" " * (rows - i) + "*" * (2 * i - 1))
@@ -207,24 +206,60 @@
 #     print(c,end=" ")
 #     n=n-1
 
-nterms = int(input("How many terms? "))
-# first two terms
-n1, n2 = 0, 1
-count = 0
-# check if the number of terms is valid
-if nterms <= 0:
-    print("Please enter a positive integer")
-# if there is only one term, return n1
-elif nterms == 1:
-    print("Fibonacci sequence upto",nterms,":")
-    print(n1)
-# generate fibonacci sequence
-else:
-    print("Fibonacci sequence:")
-    while count < nterms:
-        print(n1)
-        nth = n1 + n2
- # update values
-        n1 = n2
-        n2 = nth
-        count += 1
+# nterms = int(input("How many terms? "))
+# # first two terms
+# n1, n2 = 0, 1
+# count = 0
+# # check if the number of terms is valid
+# if nterms <= 0:
+#     print("Please enter a positive integer")
+# # if there is only one term, return n1
+# elif nterms == 1:
+#     print("Fibonacci sequence upto",nterms,":")
+#     print(n1)
+# # generate fibonacci sequence
+# else:
+#     print("Fibonacci sequence:")
+#     while count < nterms:
+#         print(n1)
+#         nth = n1 + n2
+#  # update values
+#         n1 = n2
+#         n2 = nth
+#         count += 1
+
+
+# def fun2(x):
+#     c = x+5
+#     print(c)
+#
+# output1=fun2(5)
+# print(output1)
+#
+# def fun(a):
+#     c = a+6
+#     return c
+#
+# output = fun(output1)
+#
+# print(output)
+
+
+def sumofSquares(n):
+    if n<0:
+        return -1
+    else:
+        sum = 0
+        list = []
+        for i in range(1, n):
+            square = i * i
+            sum = sum + square
+            print(sum)
+            list.append(sum)
+        print(list)
+        return sum
+
+
+sumofsquares = sumofSquares(5)
+print(sumofsquares)
+
