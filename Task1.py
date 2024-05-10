@@ -245,21 +245,44 @@
 # print(output)
 
 
-def sumofSquares(n):
-    if n<0:
-        return -1
-    else:
-        sum = 0
-        list = []
-        for i in range(1, n):
-            square = i * i
-            sum = sum + square
-            print(sum)
-            list.append(sum)
-        print(list)
-        return sum
+# def sumofSquares(n):
+#     if n<0:
+#         return -1
+#     else:
+#         sum = 0
+#         list = []
+#         for i in range(1, n):
+#             square = i * i
+#             sum = sum + square
+#             print(sum)
+#             list.append(sum)
+#         print(list)
+#         return sum
+#
+#
+# sumofsquares = sumofSquares(5)
+# print(sumofsquares)
 
 
-sumofsquares = sumofSquares(5)
-print(sumofsquares)
+# def sumofDigits(n):
+#     if n < 10:
+#         return n
+#     sum = 0
+#     while n > 0:
+#         sum += n % 10      #which adds reminder of each itration
+#         n = n // 10        #which elemenates the last digit of each iteration
+#     return sum
+#
+#
+# n = int(input("Enter a number: "))
+# sumofdigits = sumofDigits(n)
+# print("sum of digits of a number: ", sumofdigits)
+
+#multiplication table
+# n = int(input("Enter a number: "))
+# print("Multiplication table of {} is:".format(n))
+# for i in range(1,11):
+#     r = n * i
+#     print(f"  {n} * {i} = {r}")
+
 

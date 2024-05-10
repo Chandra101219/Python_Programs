@@ -35,7 +35,7 @@ from array import *
 # print(sumofsquares)
 
 
-#element in array has greater number than the giben number
+#element in array has greater number than the given number
 
 def checktheNumber(n, array):
     if not len(array):
@@ -47,8 +47,9 @@ def checktheNumber(n, array):
 
     return False
 
-n=2
+
+n = 6
 # n = int(input("Enter a number: "))
-array = array('i', [])
+array = array('i', [1, 2, 3, 4, 5, 3])
 number = checktheNumber(n, array)
 print(number)

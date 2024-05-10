@@ -10,7 +10,6 @@ def sort(list):
 
 list = [5,4,3,8,7,9,2,1]
 sort(list) # function call with rgument as list
-
 print(list)
 
 

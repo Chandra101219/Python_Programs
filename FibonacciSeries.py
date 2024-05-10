@@ -1,7 +1,7 @@
 def fibonacci(n):
     a, b = 0, 1
     if n < 0:
-        print("invalid scenario")
+        print("invalid")
 
     if n == 1:
         print(a)
@@ -13,6 +13,6 @@ def fibonacci(n):
             a = b
             b = c
             print(c)
+
+
 fibonacci(10)
-
-
